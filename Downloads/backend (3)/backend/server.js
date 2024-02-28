@@ -12,7 +12,7 @@ const dbConnection = mysql.createConnection({
     database: "sm52_arduino"
 });
 
-
+m
 dbConnection.connect((err) => {
     if (err) {
         console.error("Error en la conexión:", err);
